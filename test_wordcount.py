@@ -2,7 +2,7 @@ import os.path
 import tempfile
 
 import wordcount_lib
-from __builtin__ import False
+
 
 def _make_testfile(filename, data):
     "Make a temp file containing the given data; return full path to file."
